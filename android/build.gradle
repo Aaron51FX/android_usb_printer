@@ -2,14 +2,14 @@ group 'com.rex.android_usb_printer'
 version '1.0'
 
 buildscript {
-    ext.kotlin_version = '1.8.0' // 更新 Kotlin 版本
+    ext.kotlin_version = '1.8.22' // 更新 Kotlin 版本
     repositories {
         google()
         mavenCentral()
     }
 
     dependencies {
-        classpath 'com.android.tools.build:gradle:8.0.2' // 更新 Gradle Plugin 版本
+        classpath 'com.android.tools.build:gradle:8.11.1' // 更新 Gradle Plugin 版本
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
     }
 }
